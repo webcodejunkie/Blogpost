@@ -1,0 +1,13 @@
+﻿#img_holder {
+    display: grid;
+    grid-gap: 50px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.img_display1, .img_display2, .img_display3, .img_display4 {
+    display: flex;
+    width: 100%;
+    grid-column: 2 / 4;
+    
+}
